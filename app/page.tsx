@@ -22,9 +22,12 @@ export default function Home() {
       <section className="py-10">
         <h1 className="text-3xl my-5">Courses</h1>
         <div className="flex md:flex-row md:flex-wrap justify-center items-center flex-col ">
-          {Object.keys(courses).map((course): any => (
-            <div className="text-white bg-pink-900 w-full md:max-w-md m-2 text-2xl h-16 flex items-center justify-center rounded">
-              <div className="p-2 text-center">{course}</div>
+          {Object.keys(courses).map((key): any => (
+            <div
+              key={key}
+              className="text-white bg-pink-900 w-full md:max-w-md m-2 text-2xl h-16 flex items-center justify-center rounded"
+            >
+              <div className="p-2 text-center">{courses[key]}</div>
               {/* <div className="bg-pink-800 p-2">{courses[course]}</div> */}
             </div>
           ))}
