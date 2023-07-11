@@ -1,10 +1,14 @@
 export default function Home() {
-  const courses = {
-    Tabla: `Fri: 4:45pm to 5:30pm`,
-    Guitar: "Tue: 4:45pm to 5:30pm",
-    Vocal: "Wed: 5:45pm to 6:30pm",
-    Harmonium: "Mon: 4:45pm to 5:30pm",
-  } as any;
+  const courses = [
+    "Vocal",
+    "Guitar",
+    "Tabla",
+    "Guitar",
+    "Keyboard",
+    "Sugam Sangeet",
+    "Kathak",
+    "Western",
+  ];
 
   return (
     <main>
@@ -20,15 +24,16 @@ export default function Home() {
       </p>
 
       <section className="py-10">
-        <h1 className="text-3xl my-5">Courses</h1>
-        <div className="flex md:flex-row md:flex-wrap justify-center items-center flex-col ">
-          {Object.keys(courses).map((key): any => (
+        <h1 className="text-3xl my-5">
+          International Approved Certificate Courses
+        </h1>
+        <div className="flex justify-center items-center flex-row flex-wrap">
+          {courses.map((course, i) => (
             <div
-              key={key}
-              className="text-white bg-pink-900 w-full md:max-w-md m-2 text-2xl h-16 flex items-center justify-center rounded"
+              key={i}
+              className="p-2 flex items-center justify-center rounded text-white text-xl bg-pink-900 m-2 w-40 h-18 min-[450px]:w-44"
             >
-              <div className="p-2 text-center">{key}</div>
-              {/* <div className="bg-pink-800 p-2">{courses[course]}</div> */}
+              {course}
             </div>
           ))}
         </div>
