@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 export const metadata: Metadata = {
   title: "Omkar Sangeet Mahavidhyalay",
   description: "An indian musical classes in Ahmedabad!",
+  themeColor: "#E9DBD8",
 };
 
 export default function RootLayout({
@@ -15,7 +16,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="max-w-3xl mx-auto px-4 pb-4">
+      <body>
         <Header />
         {children}
         <Footer />
