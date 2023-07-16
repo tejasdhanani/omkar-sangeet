@@ -11,7 +11,7 @@ export default function Home() {
   ];
 
   return (
-    <main className=" bg-pink-900 text-cream p-4">
+    <main className=" bg-pink-900 text-cream py-8 px-4">
       <div className="max-w-3xl mx-auto">
         <p className="text-base text-justify">
           Welcome to Omkar Sangeet Maha-Vidhyalay located in{" "}
@@ -43,6 +43,21 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </section>
+
+        <section className="flex justify-center items-center">
+          <a className="relative md:w-4/5" href="/gallery">
+            <img
+              src="1.jpeg"
+              alt="Background"
+              className="w-full filter brightness-50"
+            />
+            <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+              <h1 className="text-4xl font-bold text-white">
+                View our Gallery
+              </h1>
+            </div>
+          </a>
         </section>
       </div>
     </main>
