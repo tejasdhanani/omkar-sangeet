@@ -7,7 +7,7 @@ export default function Header() {
         <div className="flex flex-row justify-between  items-center text-xs">
           <p>|| Shree Ganeshay Namah ||</p>
           <div className="flex items-center justify-center">
-            <Image src="/om.png" width={23} height={23} alt="Om" />
+            <Image src="/logos/om.png" width={23} height={23} alt="Om" />
           </div>
           <p>|| Maa Shardaay Namah ||</p>
         </div>
@@ -15,10 +15,10 @@ export default function Header() {
         <a className="flex flex-row items-center" href="/">
           <div className="flex items-center justify-center ">
             <Image
-              src="/omkarsangeet.png"
+              src="/logos/omkarsangeet.png"
               width={225}
               height={225}
-              alt="Picture of the author"
+              alt="Omkar Sangeet Mahavidhyalay Ahmedabad logo"
             />
           </div>
 
@@ -35,6 +35,42 @@ export default function Header() {
             Mahavidyalaya Mandal Mumbai, <br />
             Miraj (Government Approved)
           </p>
+        </div>
+
+        <div className="flex justify-center text-cream mt-3 mb-2">
+          <div className="flex items-center justify-between w-2/3 sm:w-1/3 h-11 bg-pink-800 rounded-full max-w-xs">
+            <a
+              href="tel:+91-9428124511"
+              target="_blank"
+              className="flex h-full"
+            >
+              <Image
+                src="/socialmedia/callus.png"
+                width={45}
+                height={20}
+                alt="phone omkar sangeet mahavidhyalay"
+              />
+            </a>
+            <a
+              href="tel:+91-9428124511"
+              className=" text-xl h-full flex items-center justify-center "
+            >
+              Contact Us
+            </a>
+            <a
+              href="https://wa.me/919725920213?text=I'm%20interested%20in%20joining%20for%20Vocal%20Classes."
+              target="_blank"
+              className=" flex h-full"
+            >
+              <Image
+                className="m-1 opacity-90 brightness-90"
+                src="/socialmedia/whatsapp.png"
+                width={35}
+                height={20}
+                alt="whatsapp omkar sangeet mahavidhyalay"
+              />
+            </a>
+          </div>
         </div>
       </div>
     </header>

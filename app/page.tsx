@@ -30,9 +30,13 @@ export default function Home() {
         </p>
 
         <section className="py-5">
-          <h1 className="text-3xl my-5">
+          <div className="text-3xl my-3">
             Internationally Approved Certificate Courses
-          </h1>
+          </div>
+          <ul className="list-inside list-disc mb-3">
+            <li>General Classes: 2 x 45 mins Weekly Classes</li>
+            <li>Personal Classes Available On Request</li>
+          </ul>
           <div className="flex justify-center items-center flex-row flex-wrap">
             {courses.map((course, i) => (
               <div
@@ -48,14 +52,12 @@ export default function Home() {
         <section className="flex justify-center items-center">
           <a className="relative md:w-4/5" href="/gallery">
             <img
-              src="1.jpeg"
+              src="/gallery/Ongoing Class 1 Omkar Sangeet.jpeg"
               alt="Background"
               className="w-full filter brightness-50"
             />
             <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-              <h1 className="text-4xl font-bold text-white">
-                View our Gallery
-              </h1>
+              <h1 className="text-4xl font-bold text-white">Gallery</h1>
             </div>
           </a>
         </section>

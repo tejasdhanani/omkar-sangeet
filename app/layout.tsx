@@ -4,8 +4,9 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 
 export const metadata: Metadata = {
-  title: "Omkar Sangeet Mahavidhyalay",
-  description: "An indian musical classes in Ahmedabad!",
+  title: "Omkar Sangeet Mahavidhyalay Ahmedabad",
+  description:
+    "An Indian classical singing classes including Vocal, Harmonium, Tabla, Guitar, Keyboard and Kathak in Ahmedabad!",
   themeColor: "#E9DBD8",
 };
 

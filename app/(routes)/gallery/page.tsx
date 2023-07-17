@@ -1,7 +1,13 @@
 import Link from "next/link";
 
 export default function Gallery() {
-  const images = ["4.jpeg", "1.jpeg", "2.jpeg", "3.jpeg", "5.jpeg"];
+  const images = [
+    "Dhananjay Acharya Omkar Sangeet.jpeg",
+    "Ongoing Class 1 Omkar Sangeet.jpeg",
+    "Ongoing Class 2 Omkar Sangeet.jpeg",
+    "Ongoing Class 3 Omkar Sangeet.jpeg",
+    "Ongoing Class 4 Omkar Sangeet.jpeg",
+  ];
 
   return (
     <main className=" bg-pink-900 text-cream py-8 px-4">
@@ -14,8 +20,8 @@ export default function Gallery() {
           {images.map((image, index) => (
             <div className="my-2" key={index}>
               <img
-                src={image}
-                alt="Image description"
+                src={`gallery/${image}`}
+                alt={image.split(".")[0]}
                 className="max-w-full h-auto object-cover"
               />
             </div>
