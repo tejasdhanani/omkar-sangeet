@@ -75,7 +75,7 @@ export default function Footer() {
           loading="lazy"
           allowFullScreen
           referrerPolicy="no-referrer-when-downgrade"
-          src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCEQAP30lV3ZIObM1EJ7ibpun4tn2tg8xI&q=place_id:ChIJjayz9u2FXjkRITu2YbinYhk"
+          src={`https://www.google.com/maps/embed/v1/place?key=${process.env.googleCloudAPIKey}&q=place_id:ChIJjayz9u2FXjkRITu2YbinYhk`}
         ></iframe>
       </div>
 
