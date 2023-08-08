@@ -38,16 +38,18 @@ export default function Footer() {
 
         <div>
           <h1 className="text-2xl font-semibold">Contact</h1>
-          <strong>Hours: </strong>Mon-Sat: 5-9pm <br />
           <span className="underline">Shree Dhananjay P. Acharya</span>
           <br />
-          F-3 Panchvilla Tower <br />
-          Near B.D.Rao Hall
+          F-3 Panchvilla Tower,
           <br />
-          Bhuyangdev to Memnagar Road
+          Near B.D.Rao Hall,
+          <br />
+          Bhuyangdev to Memnagar Road,
           <br />
           Ahmedabad - 380052
           <br />
+          <br />
+          <strong>Hours: </strong>Mon-Sat: 5-9pm <br />
           {"Phone: "}
           <a href="tel:+91-9428124511" className="text-blue-800">
             94281 24511
