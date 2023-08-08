@@ -9,7 +9,7 @@ export default function Footer() {
 
           <div className="flex mt-1 gap-2">
             <a
-              href="https://www.instagram.com/omkarsangeet/"
+              href="https://www.instagram.com/omkarsangeetmahavidhyalay/"
               target="_blank"
               rel="nofollow"
             >
